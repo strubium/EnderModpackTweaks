@@ -227,7 +227,7 @@ public class EMTConfig {
                     "I'm not responsible for any performance issues this may cause.",
                     "nor if your pc goes up in flames. (The Minecraft default is 16)"
             })
-            @Config.RangeInt(min = 2, max = 4096)
+            @Config.RangeInt(min = 2, max = Integer.MAX_VALUE)
             public int maxRenderDistance = 32;
 
             @Config.Name("[05] Hide Name Tags")
